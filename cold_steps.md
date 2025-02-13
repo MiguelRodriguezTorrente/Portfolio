@@ -29,7 +29,18 @@ There were three materials that worked well when creating large masses of elemen
 only because when different pieces were put together they formed a single piece, but it also
 made logical sense taking into account the material used.
 The materials were:
-**CLOUD**, **ICE**, and **BLOB**.
+
+**CLOUD**,
+
+![Cloud](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_cloud.png)
+
+**ICE**,
+
+![Ice](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_ice.png)
+
+and **BLOB**.
+
+![Blob](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_blob.png)
   
 The material that worked best was **BLOB**, as it created an interesting result and it made
 more sense that Baba could leave a trail of slime than clouds. However, the final material
@@ -43,6 +54,9 @@ But this idea was discarded due to its complexity and I established that the way
 level would not be to control the mass of ice created, but to use it to overcome the puzzle.
   
 #### First Attempt
+
+![First Attempt](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_first_attempt.png)
+
 In the first attempt to make the level I had two rules clear that would remain intact throughout
 development. The first was that the way to win was to touch the flag (**FLAG IS WIN**), since it
 was a clear and easy to see objective. The second was the mechanic of Baba creating ice
@@ -54,6 +68,9 @@ didn't break the level and then I realized that I was building the level before 
 puzzle to resolve.
 
 #### Second Attempt
+
+![Second Attempt](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_second_attempt.png)
+
 On the second attempt at making the level I focused not only on using the mechanics of
 using the **FLAG** to win and **BABA ON WATER MAKE ICE**, but also on playing with these
 rules so that the player altered them to solve the puzzle, since the fact that changing the
@@ -74,6 +91,9 @@ So for the next attempt I focused on finding first all the mechanics that the le
 and then separating them into alterable and unalterable to make the puzzle.
   
 #### First Iteration of the Level
+
+![First Iteration](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_first_iteration.png)
+
 The first version required the player to remove the **SINK** property of **WATER** and **ICE** in
 order to freeze the water and use the ice to push the **FLAG** off the **SKULL** group and win.
 However, I found at least five problems in the level, two due to design errors and three
@@ -97,6 +117,9 @@ And the last problem, which I discovered thanks to the feedback of a classmate, 
 rules to be modified were very easy to access, and it was very easy to change them.
   
 #### Second Iteration of the Level
+
+![Second Iteration](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_second_iteration.png)
+
 For the second version I focused on correcting the problems from the previous version.
 First I shrunk the size of the level vertically and enlarged the lake so that the player would
 cross over it and try the **BABA ON WATER MAKE ICE** mechanic no matter what.
@@ -126,18 +149,27 @@ create the **ICE AND FLAG IS PUSH** rule or similars but it can not mess the **F
 I wanted the player to think first about using ice instead of crystals, so I tried adding the
 **CRYSTAL IS DEFEAT** rule to draw the player's attention away from the crystals, which only
 worked if the **CRYSTAL IS STOP AND PUSH** rule was modified.
-  
+
+![Modification 1](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_modification_1.png)
+
 However, this did not greatly affect the gameplay and was more of an annoyance than a
 feature. Therefore, I left the rules as they were, modified some colors to make the level more
 aesthetic, and added clouds as decoration since they looked like snow.
+
+![Modification 2](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_modification_2.png)
+
 However, at this point I realized that **AND** was not really necessary if I placed the texts like a
 crossword puzzle.
 
 _Example:_
-  
+
+![Crossword](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_crossword.png)
+
 So I changed the **CRYSTAL IS STOP AND PUSH** rule to **CRYSTAL IS PUSH**, and I put the
 **ICE IS STOP** together with the **FLAG ON ICE IS SAFE** rule in the form of a crossword
 puzzle to give the player a clue on how to solve the puzzle.
+
+![Modification 3](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_modification_3.png)
 
 With this change, the **ICE IS STOP** rule became more relevant, not only because it taught
 the player that he could take advantage of texts from a column rule to create a row rule, but
@@ -149,6 +181,9 @@ not to interfere anymore since at this point the level design was more aimed at 
 crystals.
   
 #### Final Iteration of the Level
+
+![Final Iteration](https://github.com/MiguelRodriguezTorrente/Portfolio/blob/main/assets/images/cold_steps/cold_steps_final_iteration.png)
+
 Finally, I decided to recover the **AND** and add the **FLOAT** property so that the player would
 have more options to choose from, and thus, make the level a little more difficult.
 With this, not only did increase the possibility of using **ICE** to obtain the flag, but by not
