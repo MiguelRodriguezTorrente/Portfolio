@@ -2,7 +2,7 @@
 
 ## Overview
 Cold Steps is a puzzle level of the video game _Baba is You_ , created with the game level editor uploaded
-on Itch.io. The following sections explain the process of creating the level from the first initial
+on [Itch.io](https://hempuli.itch.io/baba-is-you-level-editor-beta). The following sections explain the process of creating the level from the first initial
 concept to its latest version.
 
 ###First Approach
