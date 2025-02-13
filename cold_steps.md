@@ -1,11 +1,11 @@
-## Cold Steps
+### Cold Steps
 
-## Overview
+### Overview
 Cold Steps is a puzzle level of the video game _Baba is You_ , created with the game level editor uploaded
 on [Itch.io](https://hempuli.itch.io/baba-is-you-level-editor-beta). The following sections explain the process of creating the level from the first initial
 concept to its latest version.
 
-###First Approach
+#### First Approach
 After playing several levels of Baba is You, there were two mechanics that stood out to me.
 The first was the fact that in some levels, the player could take control of the walls of the
 level, which provided a feeling of power by suddenly gaining agency over a large area of the
@@ -19,7 +19,7 @@ allow him to solve the puzzle.
 So I decided that in my level the player had to create different elements with the **MAKE**
 property and then use them to solve the puzzle.
   
-###Initial Concept
+#### Initial Concept
 The first idea of the level that I thought of, taking advantage of the **MAKE** property, was that
 the player had to create a large version of Baba and then take control of it and with it solve
 the puzzle.
@@ -42,7 +42,7 @@ Baba.
 But this idea was discarded due to its complexity and I established that the way to beat the
 level would not be to control the mass of ice created, but to use it to overcome the puzzle.
   
-###First Attempt
+#### First Attempt
 In the first attempt to make the level I had two rules clear that would remain intact throughout
 development. The first was that the way to win was to touch the flag (**FLAG IS WIN**), since it
 was a clear and easy to see objective. The second was the mechanic of Baba creating ice
@@ -53,7 +53,7 @@ However, I couldn't use these mechanics in a way that they were not too easy to 
 didn't break the level and then I realized that I was building the level before establishing the
 puzzle to resolve.
 
-###Second Attempt
+#### Second Attempt
 On the second attempt at making the level I focused not only on using the mechanics of
 using the **FLAG** to win and **BABA ON WATER MAKE ICE**, but also on playing with these
 rules so that the player altered them to solve the puzzle, since the fact that changing the
@@ -73,7 +73,7 @@ should not be altered (such as the case of the level hook, **BABA ON WATER MAKE 
 So for the next attempt I focused on finding first all the mechanics that the level would use
 and then separating them into alterable and unalterable to make the puzzle.
   
-###First Iteration of the Level
+#### First Iteration of the Level
 The first version required the player to remove the **SINK** property of **WATER** and **ICE** in
 order to freeze the water and use the ice to push the **FLAG** off the **SKULL** group and win.
 However, I found at least five problems in the level, two due to design errors and three
@@ -96,7 +96,7 @@ flags since there were no repercussions for altering this rule.
 And the last problem, which I discovered thanks to the feedback of a classmate, was that the
 rules to be modified were very easy to access, and it was very easy to change them.
   
-###Second Iteration of the Level
+#### Second Iteration of the Level
 For the second version I focused on correcting the problems from the previous version.
 First I shrunk the size of the level vertically and enlarged the lake so that the player would
 cross over it and try the **BABA ON WATER MAKE ICE** mechanic no matter what.
@@ -122,7 +122,7 @@ changed to light blue.
 Now the catch of the level is that the player had to use the words **ICE**, **AND**, **IS** and **PUSH** to
 create the **ICE AND FLAG IS PUSH** rule or similars but it can not mess the **FLAG ON ICE IS SAFE** rule.
   
-###Modifications
+#### Modifications
 I wanted the player to think first about using ice instead of crystals, so I tried adding the
 **CRYSTAL IS DEFEAT** rule to draw the player's attention away from the crystals, which only
 worked if the **CRYSTAL IS STOP AND PUSH** rule was modified.
@@ -148,7 +148,7 @@ However, now the crystals took more leadership than the ice to move the flag, bu
 not to interfere anymore since at this point the level design was more aimed at using the
 crystals.
   
-###Final Iteration of the Level
+#### Final Iteration of the Level
 Finally, I decided to recover the **AND** and add the **FLOAT** property so that the player would
 have more options to choose from, and thus, make the level a little more difficult.
 With this, not only did increase the possibility of using **ICE** to obtain the flag, but by not
